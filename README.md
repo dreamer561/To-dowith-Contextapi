@@ -3,12 +3,18 @@
 This is a simple todo application built using React and the Context API. It allows users to add, edit, and delete tasks in a list of todos.
 
 
-Context API in React
+#Context API in React
+
+
+
 The Context API is a feature in React that provides a way to manage global state and share data across components without the need to pass props through every level of the component tree. It helps to solve the problem of "prop drilling," which can become cumbersome as applications grow larger and more complex.
+
 Context API consists of two main parts: the Context object and the Provider component. The Context object creates a "context" that can hold data, while the Provider component wraps around components that need access to that data. By doing so, any component within the Provider's scope can access the data without the need for intermediate components to pass it down as props.
 
 
-Why Use Context API?
+#Why Use Context API?
+
+
 Avoid Prop Drilling: Context API is particularly useful when you have data that multiple components across different levels of the component tree need to access. Instead of passing data through each level as props, you can provide the data at a higher level and have components consume it directly from the context.
 
 Global State Management: Context API is ideal for managing global state, such as user authentication, theme settings, or data fetched from APIs. It simplifies the process of sharing and updating state across the application.
@@ -19,7 +25,7 @@ Cleaner Code: Context API helps improve code organization by reducing the need f
 
 
 
-How Context API Works
+#How Context API Works
 
 Creating Context: You define a context using the React.createContext() function. This creates a context object with a Provider and a Consumer.
 
@@ -30,7 +36,7 @@ Consuming Data: Components that need access to the context data can use the Cons
 Updating Data: Components can update the context data through functions provided by the context, usually by calling a function from the context that modifies the state.
 
 
-When to Use Context API
+#When to Use Context API
 
 Context API is a powerful tool, but it's not always the best choice for every situation. It's most suitable when:You have data that needs to be shared across multiple components.
 

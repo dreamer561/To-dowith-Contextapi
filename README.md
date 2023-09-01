@@ -14,7 +14,7 @@ This is a simple todo application built using React and the Context API. It allo
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/todo-app-context.git
+   git clone https://github.com/dreamer561/todo-app-context.git
    ```
 
 2. Navigate to the project directory:

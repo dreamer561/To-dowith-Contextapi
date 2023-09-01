@@ -40,17 +40,17 @@ This is a simple todo application built using React and the Context API. It allo
 ## Folder Structure
 
 - `src/`: Contains the application source code.
-  - `App.js`: The main entry point of the application.
-  - `Input.js`: Component for adding and editing todos.
-  - `List.js`: Component for displaying the list of todos.
-  - `TodoContext.js`: Context and Provider for managing todo state and actions.
+  - `App.jsx`: The main entry point of the application.
+  - `Input.jsx`: Component for adding and editing todos.
+  - `List.jsx`: Component for displaying the list of todos.
+  - `TodoContext.jsx`: Context and Provider for managing todo state and actions.
 
 ## Context API Usage
 
-The application uses the Context API to manage state and actions related to todos. The `TodoContext.js` file defines the context and the `TodoProvider` component.
+The application uses the Context API to manage state and actions related to todos. The `TodoContext.jsx` file defines the context and the `TodoProvider` component.
 
 ```jsx
-// TodoContext.js
+// TodoContext.jsx
 
 import React from 'react';
 
